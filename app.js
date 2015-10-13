@@ -20,7 +20,8 @@ $(document).ready(function(){
 //When a new game starts, the program will generate a secret number between 1 and 100 that the user must guess.
     var randomNumber100 = function() {
     secretNumber = Math.floor(Math.random()*100);
-    }
+    };
+    
     randomNumber100();
     
-})
+});
