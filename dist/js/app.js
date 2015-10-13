@@ -1,0 +1,1 @@
+$(document).ready(function(){$(".what").click(function(){$(".overlay").fadeIn(1e3)}),$("a.close").click(function(){$(".overlay").fadeOut(1e3)});var a,n=function(){a=Math.floor(100*Math.random())};n()});
